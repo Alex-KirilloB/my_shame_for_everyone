@@ -8,7 +8,7 @@ print('Caesar cipher hacker')
 
 # пользователь вводит сообщение
 print('Enter the encrypted message to hack')
-message = input('> ')
+message = input('> ').upper()
 
 SYMBOLS = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ'
 
